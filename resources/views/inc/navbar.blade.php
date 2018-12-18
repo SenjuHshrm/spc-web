@@ -67,9 +67,16 @@
               {{-- <li class="nav-item">
               <a class="nav-link" href="thecity">The City</a> --}}
 
-  <form id="search" class="form-inline mt-2 mt-md-0">
-    {{-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> --}}
+  <form id="buttonform" class="form-inline mb-1">
+    <div class="btn-group dropleft">
+     <button type="button" class="btn dropdown-toggle btn-secondary btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       Fill Up Forms
+     </button>
+     <div class="dropdown-menu" id="forms">
+       <a class="dropdown-item" href="{{URL::asset('docs/BUSINESS PERMIT APPLICATION FORM.docx')}}" download>Download Business Registration Form</a>
+       <a class="dropdown-item" href="form">Online BPLO Fill Up</a>
+     </div>
+    </div>
 
   </form>
 </nav>

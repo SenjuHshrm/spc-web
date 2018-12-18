@@ -26,17 +26,3 @@
 <br>
 <br>
 @endsection
-@section('sidebar')
-  <div class="buttonf">
-   <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
-     Fill Up Forms
-   </button>
-   <div class="dropdown-menu">
-     <a class="dropdown-item" href="{{URL::asset('docs/BUSINESS PERMIT APPLICATION FORM.docx')}}" download>Download Business Registration Form</a>
-     <a class="dropdown-item" href="form">Online BPLO Fill Up</a>
-     {{-- <a class="dropdown-item" href="#">Link 3</a> --}}
-   </div>
-  </div>
-  @parent
-  {{-- <p>This is appended to the sidebar</p> --}}
-@endsection
