@@ -20,28 +20,28 @@
   {{-- first row --}}
     <div class="form-check-inline mb-4">
       <label class="form-check-label">
-         <input type="radio" class="form-check-input" name="basicnew">New
+         <input type="radio" class="form-check-input"  value="new" name="basicnew">New
       </label>
     </div>
     <div class="form-check-inline">
      <label class="form-check-label">
-       <input type="radio" class="form-check-input" name="basicnew">Renewal
+       <input type="radio" class="form-check-input" value="renewal" name="basicnew">Renewal
      </label>
     </div>
     <div>
       <div class="form-check-inline mb-4">
         <label class="form-check-label">Mode of Payment:
-           <input type="radio" class="form-check-input" name="modepayment">Annually
+           <input type="radio" class="form-check-input" value="annual" name="modepayment">Annually
         </label>
       </div>
       <div class="form-check-inline">
        <label class="form-check-label">
-         <input type="radio" class="form-check-input" name="modepayment">Semi-Annually
+         <input type="radio" class="form-check-input" value="semi_annual" name="modepayment">Semi-Annually
        </label>
       </div>
       <div class="form-check-inline disabled">
        <label class="form-check-label">
-         <input type="radio" class="form-check-input" name="modepayment">Quarterly
+         <input type="radio" class="form-check-input" value="quarter" name="modepayment">Quarterly
        </label>
       </div>
     </div>
@@ -50,7 +50,7 @@
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="dateapp">Date Application</label>
-        <input class="form-control" type="date" value="2019-01-01" id="dateapp">
+        <input class="form-control" type="date" value="2019-01-01" id="date_application">
       </div>
       <div class="form-group col-md-6">
         <label for='tin'>TIN no.
@@ -75,68 +75,68 @@
     <div>
       <div class="form-check-inline mb-4">
         <label class="form-check-label">Type of Business:
-           <input type="radio" class="form-check-input" name="typeofbusiness">Single
+           <input type="radio" class="form-check-input" value="single" name="typeofbusiness">Single
         </label>
       </div>
       <div class="form-check-inline">
        <label class="form-check-label">
-         <input type="radio" class="form-check-input" name="typeofbusiness">Partnership
+         <input type="radio" class="form-check-input" value="partner"name="typeofbusiness">Partnership
        </label>
       </div>
       <div class="form-check-inline">
        <label class="form-check-label">
-         <input type="radio" class="form-check-input" name="typeofbusiness">Corporation
+         <input type="radio" class="form-check-input" value="corp" name="typeofbusiness">Corporation
        </label>
       </div>
       <div class="form-check-inline">
        <label class="form-check-label">
-         <input type="radio" class="form-check-input" name="typeofbusiness">Cooperative
+         <input type="radio" class="form-check-input" value="cooperative" name="typeofbusiness">Cooperative
        </label>
       </div>
     </div>
     <div>
       <div class="form-check-inline mb-4">Amendment: &nbsp;
         <label class="form-check-label">From:
-           <input type="radio" class="form-check-input" name="amendfrom">Single
+           <input type="radio" class="form-check-input" value="from_single" name="amendfrom">Single
         </label>
       </div>
       <div class="form-check-inline">
        <label class="form-check-label">
-         <input type="radio" class="form-check-input" name="amendfrom">Partnership
+         <input type="radio" class="form-check-input" value="from_partner" name="amendfrom">Partnership
        </label>
       </div>
       <div class="form-check-inline">
        <label class="form-check-label">
-         <input type="radio" class="form-check-input" name="amendfrom">Corporation
+         <input type="radio" class="form-check-input" value="from_corp"name="amendfrom">Corporation
        </label>
       </div>
     </div>
     <div>
       <div class="form-check-inline mb-4">Amendment: &nbsp;
         <label class="form-check-label">To:
-           <input type="radio" class="form-check-input" name="amendto">Single
+           <input type="radio" class="form-check-input" value="to_single" name="amendto">Single
         </label>
       </div>
       <div class="form-check-inline">
        <label class="form-check-label">
-         <input type="radio" class="form-check-input" name="amendto">Partnership
+         <input type="radio" class="form-check-input" value="to_partner" name="amendto">Partnership
        </label>
       </div>
       <div class="form-check-inline">
        <label class="form-check-label">
-         <input type="radio" class="form-check-input" name="amendto">Corporation
+         <input type="radio" class="form-check-input" value="to_corp" name="amendto">Corporation
        </label>
       </div>
     </div>
 
     <div class="form-check-inline mb-4">Are you enjoying tax incentive from any Government Entity? &nbsp;
       <label class="form-check-label">
-         <input type="radio" class="form-check-input" name="entity">Yes
+         <input type="radio" class="form-check-input" value="entity_yes" name="entity">Yes
       </label>
     </div>
     <div class="form-check-inline">
      <label class="form-check-label">
-       <input type="radio" class="form-check-input" name="entity">No
+       <input type="radio" class="form-check-input" value="entity_no" name="entity">No
      </label>
     </div>
 
@@ -145,20 +145,20 @@
   <div class="form-row">
     <div class="form-group col-md-4">
       <label for='fname'>Last Name</label>
-      <input type="text" class="form-control" name="lname" placeholder="Last Name">
+      <input type="text" class="form-control" name="registrant_lname" placeholder="Last Name">
     </div>
     <div class="form-group col-md-4">
       <label for="lname">First Name</label>
-      <input type="text" class="form-control" name="fname" placeholder="First Name">
+      <input type="text" class="form-control" name="registrant_fname" placeholder="First Name">
     </div>
     <div class="form-group col-md-4">
       <label for="lname">Middle Name</label>
-      <input type="text" class="form-control" name="mname" placeholder="Middle Name">
+      <input type="text" class="form-control" name="registrant_mname" placeholder="Middle Name">
     </div>
   </div>
   <div class="form-group">
     <label for="email">Business Name</label>
-    <input type="text" class="form-control" name="busname" placeholder="Business Name">
+    <input type="text" class="form-control" name="business_name" placeholder="Business Name">
   </div>
   <div class="form-group">
     <label for="address">Trade Name/Franchise</label>
@@ -176,98 +176,116 @@
     <p class="mb-4"><font color="red">Note:<b> For renewal applications,</b> do not fill up this section unless certain information have changed.
     </p></font>
   </div>
+
+  {{-- BUSINESS INFORMATION --}}
   <div class="form-row">
     <div class="form-group col-md-12">
-      <label for="city">Business Address</label>
-      <textarea type="text" class="form-control" name="businessadd" placeholder="Bdlg#/Street/Brgy/City" rows="2"></textarea>
+      <label>Business Address</label>
+      <textarea type="text" class="form-control" name="business_address" placeholder="Bdlg#/Street/Brgy/City" rows="2"></textarea>
     </div>
     <div class="form-group col-md-6">
-      <label for="postalcode">Postal Code</label>
-      <input type="number" class="form-control" id="postalcode">
+      <label>Postal Code</label>
+      <input type="number" class="form-control" name="business_postal">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputAddress">Email Adress</label>
-      <input type="email" class="form-control" id="inputAddress" placeholder="example@email.com">
+      <label>Email Adress</label>
+      <input type="email" class="form-control" name="business_email" placeholder="example@email.com">
     </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="telephone">Telephone</label>
-        <input class="form-control" type="tel" id="telephone" placeholder="539-966">
+      <label>Telephone</label>
+        <input class="form-control" type="tel" name="owner_tel" placeholder="539-966">
     </div>
     <div class="form-group col-md-6">
-      <label for="telephone">Mobile No.</label>
-        <input class="form-control" type="tel" id="mobile" placeholder="09XX XXX XXXX">
+      <label>Mobile No.</label>
+        <input class="form-control" type="tel" name="business_mobile" placeholder="09XX XXX XXXX">
     </div>
   </div>
-  <div class="form-group">
-    <label for="inputAddress">Email Adress</label>
-    <input type="email" class="form-control" id="inputAddress" placeholder="example@email.com">
-  </div>
 
-
+{{-- OWNER INFORMATIONS --}}
   <div class="form-row mt-5">
     <div class="form-group col-md-12">
-      <label for="city">Owner's Adress</label>
-      <textarea type="text" class="form-control" name="businessadd" placeholder="Bdlg#/Street/Brgy/City" rows="2"></textarea>
+      <label>Owner's Adress</label>
+      <textarea type="text" class="form-control" name="owner_address" placeholder="Bdlg#/Street/Brgy/City" rows="2"></textarea>
     </div>
     <div class="form-group col-md-6">
-      <label for="postalcode">Postal Code</label>
-      <input type="number" class="form-control" id="postalcode">
+      <label>Postal Code</label>
+      <input type="number" class="form-control" name="owner_postal">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputAddress">Email Adress</label>
-      <input type="email" class="form-control" id="inputAddress" placeholder="example@email.com">
+      <label>Email Adress</label>
+      <input type="email" class="form-control" name="owner_email" placeholder="example@email.com">
     </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="telephone">Telephone</label>
-        <input class="form-control" type="tel" id="telephone" placeholder="539-966">
+      <label>Telephone</label>
+        <input class="form-control" type="tel" name="owner_tel" placeholder="539-966">
     </div>
     <div class="form-group col-md-6">
-      <label for="telephone">Mobile No.</label>
-        <input class="form-control" type="tel" id="mobile" placeholder="09XX XXX XXXX">
+      <label>Mobile No.</label>
+        <input class="form-control" type="tel" name="owner_mobile" placeholder="09XX XXX XXXX">
     </div>
   </div>
 
 
+{{-- IN CASE OF EMERGENCY INFORMATIONS --}}
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label>In Case of emergency, provide name of contact person: </label>
+      <input type="text" class="form-control" name="emergency_fname" placeholder="First Name">
+    </div>
+    <div class="form-group col-md-6">
+      <label>&nbsp;</label>
+      <input type="text" class="form-control" name="emergency_fname" placeholder="First Name">
+    </div>
+  </div>
 
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="City">
+      <label>Telephone/Mobile No.</label>
+        <input class="form-control" type="tel" name="emergency_tel" placeholder="539-966">
+    </div>
+    <div class="form-group col-md-6">
+      <label>Email Address</label>
+        <input class="form-control" type="email" name="emergency_email" placeholder="Email Address">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group col-md-2">
+      <label>Business Area</label>
+        <input class="form-control" type="number" name="emergency_tel" placeholder="In sq m">
     </div>
     <div class="form-group col-md-4">
-      <label for="inputState">Province</label>
-      <select id="inputState" class="form-control">
-        <option selected>Laguna</option>
-        <option>Quezon</option>
-      </select>
+      <label>Total No. of Employees in Establishment</label>
+        <input class="form-control" type="number" name="totalno_employees" placeholder="Total Number of Employees">
     </div>
-    <div class="form-group col-md-2">
-      <label for="zip">Zip Code</label>
-      <input type="text" class="form-control" name="zip">
+
+    <div class="form-group col-md-2 mb-2" >
+      <label style="white-space: nowrap">No. of Employees Residing within</label>
+        <input class="form-control" type="number" name="no_lgu" placeholder="LGU">
+    </div>
+    <div class="form-group col-md-2 mt-2">
+      <label></label>
+        <input class="form-control" type="number" name="no_male" placeholder="Male">
+    </div>
+    <div class="form-group col-md-2 mt-2">
+      <label></label>
+        <input class="form-control" type="number" name="no_female" placeholder="Female">
     </div>
   </div>
-  <fieldset class="form-group">
-    <div class="row">
-      <legend class="col-form-label col-sm-4 pt-0" >Type of Business</legend>
-      <div class="col-sm-10">
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="single" checked>
-          <label class="form-check-label" for="gridRadios1">
-            Single
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="multiple">
-          <label class="form-check-label" for="gridRadios2">
-            Mulitple
-          </label>
-        </div>
-      </div>
-    </div>
+
+  <div class="mt-5">
+    <p align="center"><b>3.	BUSINESS ACTIVITY </b></p>
+  </div>
+  <div>
+    <p class="mb-4"><font color="red">Note:<b> For renewal applications,</b> do not fill up this section unless certain information have changed.
+    </p></font>
+  </div>
+
+
   <button type="submit" class="btn btn-primary mt-4">Print</button>
 </form>
 </div>

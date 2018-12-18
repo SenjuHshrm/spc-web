@@ -69,7 +69,7 @@
 
   <form id="buttonform" class="form-inline mb-1">
     <div class="btn-group dropleft">
-     <button type="button" class="btn dropdown-toggle btn-secondary btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     <button type="button" class="btn dropdown-toggle  btn-block btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
        Fill Up Forms
      </button>
      <div class="dropdown-menu" id="forms">
